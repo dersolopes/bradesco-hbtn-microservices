@@ -1,0 +1,22 @@
+Resumo sobre Microsserviços, seus principais benefícios e arquitetura monolítica:
+
+Microsserviços são uma abordagem arquitetural para desenvolvimento de aplicações, onde o sistema é 
+dividido em pequenos serviços independentes e autônomos, cada um responsável por uma funcionalidade 
+específica. Essa arquitetura busca reduzir o acoplamento e aumentar a flexibilidade, permitindo que 
+mudanças em um serviço não afetem toda a aplicação.
+
+Na arquitetura monolítica, a aplicação é construída como um único bloco, geralmente com um banco de 
+dados centralizado, o que facilita o desenvolvimento inicial, mas dificulta a escalabilidade e 
+manutenção. Já a arquitetura de microsserviços organiza a aplicação em múltiplos serviços, cada um 
+com seu próprio banco de dados e podendo ser desenvolvido em diferentes linguagens, favorecendo 
+independência e escalabilidade.
+
+Entre os principais benefícios dos microsserviços estão:
+
+ - Escalabilidade independente, permitindo ajustar recursos conforme a demanda de cada serviço.
+ - Desenvolvimento autônomo, possibilitando que equipes trabalhem em paralelo.
+ - Resiliência, pois falhas em um serviço não comprometem todo o sistema.
+
+A comunicação entre microsserviços pode ocorrer de forma síncrona (via HTTP/REST ou gRPC) ou 
+assíncrona (por meio de mensageria, como Kafka ou RabbitMQ), garantindo integração eficiente e 
+tolerância a falhas.
